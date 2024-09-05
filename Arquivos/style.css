@@ -1,0 +1,69 @@
+/* * Ínicio do CSS Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282C33;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ! Fim do CSS Global */
+
+/* * Ínicio do CSS Header */
+
+header {
+    width: 100%;
+    height: 110px;
+    padding: 0px 208px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-img {
+    width: 50%;
+}
+
+.div-img img {
+    width: 100px;
+    height: 100px;
+
+    /*C778DD*/
+}
+
+.links-header {
+    width: 50%;
+}
+
+.links-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-header a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links-header li:hover {
+    text-decoration: underline #C778DD;
+}
+
+.detalhe-span {
+    color: #C778DD;
+    
+}
+
+/* ! Fim do CSS Header */
