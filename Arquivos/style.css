@@ -79,6 +79,7 @@ nav li:hover {
 /* * Ínicio do CSS Section-Banner */
 
 .section-banner {
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
