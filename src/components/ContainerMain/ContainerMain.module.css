@@ -1,0 +1,30 @@
+main {
+    width: 100%;
+    height: 87vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.sectionFoto {
+    width: 40%;
+    text-align: end;
+    border: 1px solid var(--LightBlue); /* ! REMOVER */
+}
+
+.fotoPrincipal {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.sectionDados {
+    width: 60%;
+    padding-left: 40px;
+    border: 1px solid var(--LightBlue); /* ! REMOVER */
+}
+
+.textos p {
+    font-size: 32px;
+    color: var(--LightBlue);
+}

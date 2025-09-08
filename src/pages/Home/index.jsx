@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from '../../components/Header'
+import React from "react";
+import Header from "../../components/Header";
+import ContainerMain from "../../components/ContainerMain";
 
 const Home = () => {
   return (
-    <Header />
-  )
-}
+    <>
+      <Header />
+      <ContainerMain />
+    </>
+  );
+};
 
-export default Home
+export default Home;
