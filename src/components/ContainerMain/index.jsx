@@ -18,7 +18,7 @@ const ContainerMain = () => {
         <section className={style.sectionDados}>
           <div className={style.textos}>
             <p>Olá, eu sou Lucas Castro,</p>
-            <span>Desenvolvedor Front-end</span>
+            <span className={style.destaque}>Desenvolvedor Front-end</span>
             <p className={style.nivelDev}>Junior</p>
           </div>
 

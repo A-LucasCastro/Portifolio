@@ -5,8 +5,9 @@
 
     font-family: "Oswald", sans-serif;
 
-    --primary-color: #262b23;
-    --secondary-color: #A9B9A6;
-    --LightBlue: #c8ddf1;
-    --darkBlue: #1A4EC7;
+    --primary-color: #1c1c1c;
+    --cinza-prata: #e5e5e5;
+    --dourado-fosco: #d4af37;
+    --azul: #3a6ea5;
+    --laranja-queimado: #e76f51;
 }

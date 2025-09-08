@@ -15,7 +15,7 @@ header div {
 .links {
     cursor: pointer;
     text-decoration: none;
-    color: var(--LightBlue);
+    color: var(--cinza-prata);
 }
 
 .icone {
@@ -28,17 +28,17 @@ header div {
     text-align: center;
 }
 
-.nome:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--darkBlue);
-    text-decoration-thickness: 2px;
-}
-
-span {
+header span {
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: var(--darkBlue);
     text-decoration: none;
+}
+
+header span:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--azul);
+    color: var(--azul);
+    text-decoration-thickness: 2px;
 }
 
 .navegacao {
@@ -51,6 +51,7 @@ span {
 
 .linksNav:hover {
     text-decoration: underline;
-    text-decoration-color: var(--lightBlue);
+    text-decoration-color: var(--azul);
+    color: var(--azul);
     text-decoration-thickness: 2px;
 }

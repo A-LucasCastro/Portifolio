@@ -7,9 +7,8 @@ main {
 }
 
 .sectionFoto {
-    width: 40%;
+    width: 30%;
     text-align: end;
-    border: 1px solid var(--LightBlue); /* ! REMOVER */
 }
 
 .fotoPrincipal {
@@ -21,10 +20,17 @@ main {
 .sectionDados {
     width: 60%;
     padding-left: 40px;
-    border: 1px solid var(--LightBlue); /* ! REMOVER */
 }
 
 .textos p {
     font-size: 32px;
-    color: var(--LightBlue);
+    color: var(--cinza-prata);
+}
+
+.destaque {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;;
+    color: var(--dourado-fosco);
 }
