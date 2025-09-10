@@ -17,14 +17,16 @@ const ContainerMain = () => {
 
         <section className={style.sectionDados}>
           <div className={style.textos}>
-            <p>Olá, eu sou Lucas Castro,</p>
-            <span className={style.destaque}>Desenvolvedor Front-end</span>
-            <p className={style.nivelDev}>Junior</p>
+            <p className={style.paragrafoAnimado}>
+              Olá, eu sou Lucas Castro, <br />{" "}
+            </p>
+            <span className={`${style.destaque} ${style.paragrafoAnimadoSpan}`}>Desenvolvedor Front-end</span>
           </div>
+          <p className={style.nivelDev}>Junior</p>
 
           <div className={style.botoesContatos}>
-            <div className={style.botaoCurriculo}>
-              <Link className={style.links} to="/">
+            <div>
+              <Link className={style.linkCurriculo} to="/">
                 <FaDownload />
                 <p>Download CV</p>
               </Link>
