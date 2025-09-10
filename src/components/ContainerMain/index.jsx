@@ -33,13 +33,13 @@ const ContainerMain = () => {
             </div>
 
             <div className={style.redesSociais}>
-              <Link>
+              <Link className={style.linksRedesSociais} to="/">
                 <FaGithub />
               </Link>
-              <Link>
+              <Link className={style.linksRedesSociais} to="/">
                 <FaLinkedin />
               </Link>
-              <Link>
+              <Link className={style.linksRedesSociais} to="/">
                 <FaInstagram />
               </Link>
             </div>
