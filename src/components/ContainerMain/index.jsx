@@ -20,7 +20,9 @@ const ContainerMain = () => {
             <p className={style.paragrafoAnimado}>
               Olá, eu sou Lucas Castro, <br />{" "}
             </p>
-            <span className={`${style.destaque} ${style.paragrafoAnimadoSpan}`}>Desenvolvedor Front-end</span>
+            <span className={`${style.destaque} ${style.paragrafoAnimadoSpan}`}>
+              Desenvolvedor Front-end
+            </span>
           </div>
           <p className={style.nivelDev}>Junior</p>
 
@@ -33,10 +35,20 @@ const ContainerMain = () => {
             </div>
 
             <div className={style.redesSociais}>
-              <Link className={style.linksRedesSociais} to="/">
+              <Link
+                className={style.linksRedesSociais}
+                to="https://github.com/A-LucasCastro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub />
               </Link>
-              <Link className={style.linksRedesSociais} to="/">
+              <Link
+                className={style.linksRedesSociais}
+                to="https://www.linkedin.com/in/aldenor-lucas-667747243/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin />
               </Link>
               <Link className={style.linksRedesSociais} to="/">
